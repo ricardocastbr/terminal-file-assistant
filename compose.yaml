@@ -1,0 +1,13 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: python chatbot.py
+    env_file:
+      - .env
+    stdin_open: true 
+    tty: true       
