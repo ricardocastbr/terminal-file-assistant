@@ -110,7 +110,3 @@ flowchart LR
 ```
 
 The model does not access the disk directly. It requests a tool; the Python program validates the path, asks for confirmation when needed, and performs the operation.
-
-## 📄 License
-
-No license has been added to this repository yet. Add one before distributing or reusing the project publicly.
